@@ -50,5 +50,8 @@ def total_even_pairs(src)
     inner = src[i]
     if inner[0] % 2 && inner [1] % 2 == 0
       new_array += inner[0] + inner[1] 
+    end 
+    i += 1
   end
+  
 end
